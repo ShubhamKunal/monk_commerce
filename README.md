@@ -93,7 +93,7 @@ Testing: Thunder Client
 9. Premium user privileges - extra coupons not available for ordinary user.
 
 ---------------------------------------------------------------------------------------------------------
-# How to implement the project:
+# How to run this django project:
 1. Make sure you have latest python + pip installed properly and running
 2. Create virtual environment (_python3 -m venv venv_)
 3. Activate it using command (_source venv/bin/activate_)
