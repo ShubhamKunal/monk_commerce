@@ -1,0 +1,12 @@
+asgiref==3.9.1
+Django==5.2.6
+dotenv==0.9.9
+gunicorn==23.0.0
+packaging==25.0
+pillow==11.3.0
+psycopg==3.2.10
+python-dotenv==1.1.1
+setuptools==80.9.0
+sqlparse==0.5.3
+uv==0.9.2
+wheel==0.45.1
