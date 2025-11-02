@@ -53,7 +53,7 @@ Testing: Thunder Client
 ### 5. POST apply-coupon/<coupon_id>/ - applies the given coupon in the given cart
 
 ---------------------------------------------------------------------------------------------------------
-# Limitations/Constraints I can think of (Not implemented yet):
+# Limitations/Constraints I can think of/Non-implemented:
 
 1. Max discount cap per cart or per product or per user (for eg. 10% discount upto 200)
 2. Coupon expiry
@@ -88,10 +88,20 @@ Testing: Thunder Client
 4. More types of coupons: category-product-based (eg. footwear) or brand-product-based (eg. Adidas)
 5. Amount-based coupons. Currently I am assuming cart and product based coupons offer percentage based discounts.
 6. Validation of all coupons by administrator before getting added. A layer of security.
-7. Automatic coupon application
+7. Automatic coupon application on checkout
 8. Even more sophisticated error handling (Currently it exists but can be improved)
 9. Premium user privileges - extra coupons not available for ordinary user.
 
 ---------------------------------------------------------------------------------------------------------
+# How to implement the project:
+1. Make sure you have latest python + pip installed properly and running
+2. Create virtual environment (_python3 -m venv venv_)
+3. Activate it using command (_source venv/bin/activate_)
+4. Using pip install the dependencies. requirements.txt is given in the project (_pip install -r requirements.txt_)
+5. Apply database migrations (_python manage.py migrate_)
+6. Run the development server (_python manage.py runserver_)
+
+---------------------------------------------------------------------------------------------------------
+
 
 
